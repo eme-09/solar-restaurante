@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar</title>
+    <link rel="stylesheet" href="CSS/components.css">
+    <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/variables.css">
+    <link rel="stylesheet" href="scripts.js">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header__logocontainer">
+            <img src="Recurso 9.png" alt="Logo de Solar Restaurante" class="header__logo" title="Solar Restaurante" >
+        </div>
+        <nav class="header__nav-container">
+            <ul class="header__nav">
+                <li><a href="#portada" class="header__nav-link">Portada</a></li>
+                <li><a href="#catalogo" class="header__nav-link">Catálogo</a></li>
+                <li><a href="#contacto" class="header__nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="portada" class="section section__portada">
+        <div class="section__content">
+            <h2 class="section__title">Bienvenidos a Solar</h2>
+            <p class="section__text">Restaurante de comida tradicional con un toque moderno. Su especialidad son los platillos a la leña y parrilla, inspirados en recetas ancestrales. Buscan transmitir calidez, nostalgia y un ambiente acogedor, como el de una hacienda antigua. Disfruta de nuestras deliciosas parrillas cocinadas con leña, en un ambiente único.</p>
+        </div>
+    </section>
+    <section id="catalogo" class="section section--catalogo">
+        <h2 class="section__title">Menú</h2>
+        <div class="catalogo__productos">
+            <div class="producto">
+                <img src="Image_fx (12).jpg" alt="Parrilla de carne" class="producto__img">
+                <h3 class="producto__title">Parrilla de carne</h3>
+                <p class="producto__description">Deliciosa parrilla de carne asada, preparada al estilo tradicional.</p>
+            </div>
+            <div class="producto">
+                <img src="Image_fx (14).jpg" alt="Parrilla mixta" class="producto__img">
+                <h3 class="producto__title">Parrilla mixta</h3>
+                <p class="producto__description">Una mezcla de carnes a la parrilla, acompañadas de vegetales.</p>
+            </div>
+            <div class="producto">
+                <img src="Image_fx (23).jpg" alt="Costillas a la leña" class="producto__img">
+                <h3 class="producto__title">Costillas a la leña</h3>
+                <p class="producto__description">Costillas tiernas y jugosas cocinadas lentamente en horno de leña.</p>
+            </div>
+            <div class="producto">
+                <img src="Image_fx (24).jpg" alt="Pollo asado" class="producto__img">
+                <h3 class="producto__title">Pollo asado</h3>
+                <p class="producto__description">Pollo marinado y asado a la perfección sobre nuestras parrillas de leña.</p>
+            </div>
+            <div class="producto">
+                <img src="Image_fx (15).jpg" alt="Ensalada fresca" class="producto__img">
+                <h3 class="producto__title">Ensalada fresca</h3>
+                <p class="producto__description">Acompaña tu parrilla con una ensalada fresca y saludable.</p>
+            </div>
+            <div class="producto">
+                <img src="Image_fx (26).jpg" alt="Papas fritas" class="producto__img">
+                <h3 class="producto__title">Papas fritas</h3>
+                <p class="producto__description">Papas fritas crujientes, perfectas para acompañar cualquier platillo.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="section section--contacto">
+        <h2 class="section__title">Contáctanos</h2>
+        <form action="#" method="POST" class="formulario">
+            <label for="nombre" class="formulario__label">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" class="formulario__input" required>
+
+            <label for="email" class="formulario__label">Correo electrónico:</label>
+            <input type="email" id="email" name="email" class="formulario__input" required>
+
+            <label for="mensaje" class="formulario__label">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" class="formulario__textarea" required></textarea>
+
+            <button type="submit" class="btn btn--secondary" aria-label="Enviar mensaje">Enviar mensaje</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 Solar Restaurante | Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

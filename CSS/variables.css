@@ -1,0 +1,12 @@
+:root {
+    --color-principal: #995a52; 
+    --color-secundario: #5d4037; 
+    --color-blanco: white;
+    --color-texto: #666;
+    --fuente-principal: 'Poppins', sans-serif;
+    --fuente-secundaria: 'Poppins', sans-serif;
+    --tamano-base: 16px; 
+    --espaciado: 20px;
+    --tamaño-logo: 100px; 
+    --tamaño-btn: 16px;
+}
